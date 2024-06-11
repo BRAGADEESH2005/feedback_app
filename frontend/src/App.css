@@ -1,0 +1,99 @@
+.container {
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 2%;
+}
+
+.title {
+  font-size: 1.5vw; 
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.line{
+color: grey;
+  width: 100%;
+}
+
+.form {
+  margin-bottom: 2%;
+}
+
+.form-group {
+  margin-bottom: 1%;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 2%;
+  font-size: 1vw; 
+  border: 1px solid #ccc;
+  border-radius: 5px; 
+}
+
+.error {
+  color: red;
+  margin-top: 2%;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 1.2vw; 
+  border-radius: 2vw; 
+  cursor: pointer;
+  margin-left: 45%;
+  width: 10%;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.subtitle {
+  font-size: 1.5vw; 
+  margin-bottom: 1%;
+  text-align: center;
+}
+
+.feedback-list {
+  list-style: none;
+  padding: 0;
+  max-height: 500px;
+}
+
+.feedback-item {
+  margin-bottom: 1%;
+  border: 1px solid #ccc;
+  padding: 2%;
+  border-radius: 10px; 
+
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 5%;
+  }
+
+  .title {
+    font-size: 5vw;
+    margin-bottom: 5%;
+  }
+
+  .form {
+    margin-bottom: 5%;
+  }
+
+  .button {
+    padding: 3% 6%;
+    font-size: 3vw;
+  }
+
+  .subtitle {
+    font-size: 4vw;
+    margin-bottom: 3%;
+  }
+}
